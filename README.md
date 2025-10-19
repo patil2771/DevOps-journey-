@@ -35,3 +35,6 @@ voting-app/
 
 
 <img width="1913" height="859" alt="image" src="https://github.com/user-attachments/assets/23bfb778-3252-4e89-881b-b18cf95c868c" />
+<img width="1913" height="859" alt="image" src="https://github.com/user-attachments/assets/3cc20f51-9e3f-48f8-ac77-9b02f5abdfe8" />
+<img width="1757" height="851" alt="image" src="https://github.com/user-attachments/assets/b348b7f8-4df2-444d-a601-e07c9a9a9a20" />
+
