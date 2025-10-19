@@ -31,3 +31,7 @@ voting-app/
 ├── result-app-deployment.yaml
 ├── result-app-pod.yaml
 └── result-app-service.yaml
+
+
+
+<img width="1913" height="859" alt="image" src="https://github.com/user-attachments/assets/23bfb778-3252-4e89-881b-b18cf95c868c" />
