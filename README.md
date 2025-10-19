@@ -1,21 +1,33 @@
 # Voting App on Kubernetes
 
 ## Overview
-Multi-service Voting App deployed on Kubernetes, including:
-- PostgreSQL
-- Redis
-- Voting App
-- Worker App
-- Result App
+This is a **multi-service Voting App** deployed on Kubernetes, demonstrating container orchestration, service management, and monitoring. The app includes the following components:  
 
-Monitoring and observability implemented with Prometheus and Grafana.
+- **PostgreSQL** – Database for storing votes  
+- **Redis** – Caching and message queue  
+- **Voting App** – Frontend for voting  
+- **Worker App** – Background processing  
+- **Result App** – Display voting results  
 
-## Deployment
-1. Apply manifests in order:
-   ```bash
-   kubectl apply -f manifests/postgres/
-   kubectl apply -f manifests/redis/
-   kubectl apply -f manifests/voting-app/
-   kubectl apply -f manifests/worker-app/
-   kubectl apply -f manifests/result-app/
-   kubectl apply -f manifests/monitoring/
+Monitoring and observability are implemented using **Prometheus and Grafana** to track application and cluster metrics.
+
+---
+
+## Repository Structure
+
+voting-app/
+├── README.md
+├── postgres-deployment.yaml
+├── postgres-pod.yaml
+├── postgres-service.yaml
+├── redis-deployment.yaml
+├── redis-pod.yaml
+├── redis-service.yaml
+├── voting-app-deployment.yaml
+├── voting-app-pod.yaml
+├── voting-app-service.yaml
+├── worker-app-deploy.yaml
+├── worker-pod.yaml
+├── result-app-deployment.yaml
+├── result-app-pod.yaml
+└── result-app-service.yaml
