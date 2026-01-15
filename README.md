@@ -1,5 +1,14 @@
 # Voting App on Kubernetes
 
+I worked on a multi-service Voting Application deployed on Kubernetes.
+The application follows a microservices architecture where the Voting App frontend allows users to cast votes, which are temporarily stored in Redis acting as a cache and message queue.
+A Worker App processes these votes asynchronously and stores the final data in PostgreSQL.
+The Result App then fetches data from PostgreSQL to display live voting results.
+Each component runs in its own Kubernetes Deployment and is exposed internally using Kubernetes Services for service discovery and communication.
+Kubernetes ensures scalability, self-healing, and high availability.
+For observability, I integrated Prometheus to collect cluster and application metrics and Grafana to visualize CPU, memory, pod health, and service performance.
+This project demonstrates my hands-on experience with container orchestration, service management, monitoring, and troubleshooting in a real-world DevOps setup.
+
 ## Overview
 This is a **multi-service Voting App** deployed on Kubernetes, demonstrating container orchestration, service management, and monitoring. The app includes the following components:  
 
